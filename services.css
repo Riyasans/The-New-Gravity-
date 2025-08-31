@@ -1,0 +1,449 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color:black;
+  color:white;
+  line-height: 1.6;
+}
+
+
+
+/* Navbar */
+.navbar {
+ position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: transparent;
+  z-index: 999;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.logo {
+  width:auto;
+  height:auto;
+  font-weight: bold;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+  background: none;
+  border: none;
+}
+
+.para  h1{
+ margin-top: 40px;
+ font-size: 250px;
+  text-align: center;
+}
+
+.para p {
+font-size: 20px;
+margin-top: -60px;
+
+ margin-left: 15px;
+ margin-right: 15px;
+  text-align: center;
+}
+
+
+
+
+
+.nav-linkswork {
+  color:white;
+  text-decoration:none;
+  font-weight: 500;
+}
+
+.nav-linkswork {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-linkswork a {
+  color:white;
+  text-decoration:none;
+  font-weight: 500;
+}
+
+.nav-linkswork a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
+
+.background-video {
+    margin-top: 90px;
+  position: absolute;
+  top: 0;
+  left: 0;
+   height: 400px;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+
+}
+
+.hero-content h1 {
+  margin-top: 90px;
+  color: white;
+  font: size 25rem;
+  text-align: center;
+
+}
+
+.hero-content2 h1 {
+color: white;
+  font: size 35rem;
+  margin-bottom: 20px;
+  text-align: center;
+   margin-bottom: 1rem;
+ 
+}
+.hero-content p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* Projects */
+.projects, .services, .about, .contact {
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Contact */
+.contact form {
+  margin-top: 1rem;
+  display: flex;
+  color: white;
+  border-radius: 30px;
+  text-decoration: #000;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contact{
+  margin-top: -10px;
+}
+.contact input[type="email"] {
+  padding: 0.6rem;
+  color: #000;
+  border-radius:  35px;
+  width: 250px;
+}
+
+.contact button {
+  padding: 0.6rem 1.2rem;
+  background-color:white;
+  color:black;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color:white;
+}
+.contact h1{
+  text-align: center;
+  color:white;
+  size: 5px;
+  
+
+
+}
+.contact h2{
+  font-size: 60px;
+  color:white;
+}
+.contact p{
+  font-size: 20px;
+  color:white;
+}
+
+.contact  p1 {
+  font-size: 15px;
+  color:white;
+}
+
+
+
+
+    .section-line {
+  width: 100%;
+  height: 1px;
+  background-color: #bdbcbc81;
+  margin: 10px 0;
+}
+
+
+.btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2a4a6c;
+  color: white;
+  text-decoration: none; 
+   border-radius: 25px;
+  border: none;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color:white;
+}
+
+
+#company {
+  margin-top: 90px;
+ display: flex;
+ flex-direction: column;
+  object-fit: cover;
+  background-color:transparent;
+  padding: 20px 20px;
+  margin-bottom: 90px;
+}
+
+#work {
+margin-top: 20px;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+
+
+.work-grid {
+margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.work-item {
+  text-align: center;
+}
+
+
+.projectdeatil h1{
+    margin-top: 90px;
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.projectdeatil p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-media .main-display {
+  max-width:  450px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+
+.main-image img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+/* Footer */
+footer {
+  background-color:black;
+  color:white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+/* Responsive Styles */
+
+/* Mobile & Tablet (<= 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+    background: #000;
+    padding: 1rem 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 0.5rem 1rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .project-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .trusted-logos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .service-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-img {
+    margin: 0 0 20px 0;
+    max-width: 100%;
+  }
+
+
+  .work-grid {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  }
+
+  .main-image img {
+    max-width: 100%;
+  }
+
+  .sub-media {
+    justify-content: center;
+    margin-left: 0;
+  }
+   .trusted-logos {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .sub-media img,
+  .sub-media video {
+    width: 80px;
+    height: 50px;
+  }
+
+  .contact h1 {
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}
+
+/* Smartwatch & Extra Small (<= 400px) */
+@media (max-width: 400px) {
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trusted-logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  .btn {
+    font-size: 11px;
+    padding: 6px 12px;
+  }
+
+  .service-content h4 {
+    font-size: 16px;
+  }
+
+  .service-content p {
+    font-size: 12px;
+  }
+}
+
+
+
