@@ -248,7 +248,7 @@ color: white;
 }
 
 #work {
-margin-top: 20px;
+margin-top: 10px;
   padding: 40px 20px;
   margin-bottom: 30px;
   text-align: center;
@@ -265,21 +265,31 @@ margin-top: 20px;
 }
 
 .work-item {
+  margin-top: 100px;
   text-align: center;
 }
 
 
 .projectdeatil h1{
     margin-top: 90px;
-    font-size: 25px;
+    font-size: 50px;
     text-decoration: underline;
     text-align: center;
 }
 
-.projectdeatil p{
-    font-size: 20px;
-    text-align: center;
+.text{
+  text-align: left;
+  font-size: 30px;
+  margin-top: 50px;
+ margin-left: 50px;
 }
+.text2{
+  text-align: left;
+  font-size: 30px;
+  margin-top: 50px;
+ margin-left: 100px;
+}
+
 
 .main-media .main-display {
   max-width:  450px;

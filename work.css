@@ -154,12 +154,6 @@ color: white;
   text-align: center;
 }
 
-
-
-
-
-
-
 /* Contact */
 .contact form {
   margin-top: 1rem;
@@ -256,7 +250,7 @@ color: white;
 }
 
 #work {
-    margin-top: 90px;
+  margin-top: 90px;
   padding: 40px 20px;
   margin-bottom: 30px;
   text-align: center;
@@ -269,7 +263,7 @@ color: white;
 }
 
 .work-grid {
-    margin-top: 90px;
+  margin-top: 90px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -302,11 +296,26 @@ color: #444;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   margin-bottom: 10px;
 }
+.main-media iframe,
+.main-media video,
+.main-media img {
+  width: 100%;
+  height:auto;
+  object-fit: cover;
+  border-radius: 8px; 
+}
+
+.main-media {
+  width: 100%;
+  height:auto;      
+  position: relative;
+  overflow: hidden;
+}
 
 
 .main-image img {
   max-width: 80%;
-  height: auto;
+  height:auto;
   margin-bottom: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
