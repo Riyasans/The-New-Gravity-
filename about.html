@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About</title>
   <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-     <div class="logo">The New Gravity</div>
+  <header  data-aos="fade-In">
+    <nav class="navbar"  data-aos="fade-In">
+     <div class="logo"  data-aos="fade-In">The New Gravity</div>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="work.html">Work</a></li>
@@ -19,25 +20,25 @@
        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
     </nav>
   </header>
-<section class="para">
-  <h1>About Us</h1>
-  <p>At The New Gravity, creativity is our orbit, and innovation is our force. We <br> don’t just follow trends — we create new ones.</p>
+<section class="para" data-aos="fade-up">
+  <h1 data-aos="fade-up">About Us</h1>
+  <p data-aos="fade-up">At The New Gravity, creativity is our orbit, and innovation is our force. We <br> don’t just follow trends — we create new ones.</p>
 </section>
   
 
-<section id="work">
+<section id="work" data-aos="fade-up">
  
-  <div class="work-grid">
+  <div class="work-grid" data-aos="fade-up">
 
     <!-- Work Item 1 -->
 
-    <div class="work-item">
-      <div class="main-media">
-        <img src="Google.png" class="main-display" alt="Main Work">
+    <div class="work-item" data-aos="fade-up">
+      <div class="main-media" data-aos="fade-up">
+        <img src="Google.png" class="main-display" alt="Main Work" data-aos="fade-up">
       </div>
        </div>
-     <aside class="projectdeatil">
-        <p> We are The New Gravity — a collective of passionate artists, designers, and innovators redefining the pull of imagination. Our studio blends cutting-edge CGI, AI-powered creativity, and cinematic storytelling to craft visuals that captivate, inspire, and stay etched in memory. From hyper-realistic architecture to immersive advertising, futuristic product visuals, we bring worlds to life with precision and artistry. Our mission is simple: to transform ideas into experiences that feel real enough to touch, yet impossible to forget.</p>
+     <aside class="projectdeatil"data-aos="fade-up">
+        <p data-aos="fade-up"> We are The New Gravity — a collective of passionate artists, designers, and innovators redefining the pull of imagination. Our studio blends cutting-edge CGI, AI-powered creativity, and cinematic storytelling to craft visuals that captivate, inspire, and stay etched in memory. From hyper-realistic architecture to immersive advertising, futuristic product visuals, we bring worlds to life with precision and artistry. Our mission is simple: to transform ideas into experiences that feel real enough to touch, yet impossible to forget.</p>
      </aside>
 
   </div>
@@ -45,50 +46,55 @@
 </section>
 
 
-  <section class="trusted">
-  <h2>Our Amazing Team </h2>
-  <div class="section-line"></div>
-  <div class="trusted-logos">
-    <img src="profile.jpeg" alt="Logo 1">
-     <img src="profile.jpeg" alt="Logo 1">
-      <img src="profile.jpeg" alt="Logo 1">
-      <img src="profile.jpeg" alt="Logo 1">
+  <section class="trusted" data-aos="fade-up">
+  <h2 data-aos="fade-up">Our Amazing Team </h2>
+  <div class="section-line" data-aos="fade-up"></div>
+  <div class="trusted-logos" data-aos="fade-up">
+    <img src="profile.jpeg" alt="Logo 1" data-aos="fade-up">
+     <img src="profile.jpeg" alt="Logo 1" data-aos="fade-up">
+      <img src="profile.jpeg" alt="Logo 1" data-aos="fade-up">
+      <img src="profile.jpeg" alt="Logo 1" data-aos="fade-up">
    
     <!-- Add more logos as needed -->
   </div>
 </section>
 
-  <section class="trusted">
-  <h2>Trusted By Industry Leaders</h2>
-  <div class="section-line"></div>
-  <div class="trusted-logos">
-     <img src="Google.png" alt="Logo 1">
-    <img src="SBI.png" alt="Logo 2">
-    <img src="Samara.png" alt="Logo 3">
-     <img src="Aerpace.png" alt="Logo 1">
+  <section class="trusted" data-aos="fade-up">
+  <h2 data-aos="fade-up">Trusted By Industry Leaders</h2>
+  <div class="section-line" data-aos="fade-up"></div>
+  <div class="trusted-logos" data-aos="fade-up">
+     <img src="Google.png" alt="Logo 1" data-aos="fade-up">
+    <img src="SBI.png" alt="Logo 2" data-aos="fade-up">
+    <img src="Samara.png" alt="Logo 3" data-aos="fade-up">
+     <img src="Aerpace.png" alt="Logo 1" data-aos="fade-up">
    
     <!-- Add more logos as needed -->
   </div>
 </section>
-<section class="hero">
-    <video autoplay muted loop class="background-video">
+<section class="hero" data-aos="fade-up">
+    <video autoplay muted loop class="background-video" data-aos="fade-up">
       <source src="MG.mp4" type="video/mp4" />
     </video>
-    
   </section>
 
-  <section class="contact">
+  <section class="contact" data-aos="fade-up">
     
-    <h2>Let's Create Something Beautiful</h2>
-    <p>I'm excited to collaborate with you on uour next project. Reach out today</p>
-    <p1>Share your email we will contact you</p1>
+    <h2 data-aos="fade-up">Let's Create Something Beautiful</h2>
+    <p data-aos="fade-up">I'm excited to collaborate with you on uour next project. Reach out today</p>
+    <p1 data-aos="fade-up">Share your email we will contact you</p1>
     <form>
       <input type="email" placeholder="Your Email" />
       <button type="submit">Go</button>
     </form>
   </section>
 
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200,   // animation speed
+    once: false       // agar true karoge to ek hi baar chalega
+  });
+</script>
   <footer>
     <p>© The New Gravity</p>
   </footer>
