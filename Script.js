@@ -41,7 +41,7 @@ video.addEventListener("mouseleave", ()  =>{
     newVideo.innerHTML = `<source src="${videoSource}" type="video/mp4">Your browser does not support the video tag.`;
 
     // hover par play/pause
-    newVideo.addEventListener('mouseleave', () => newVideo.pause());
+    //newVideo.addEventListener('mouseleave', () => newVideo.pause());
 
     mainMedia.appendChild(newVideo);
 
@@ -61,6 +61,10 @@ video.addEventListener("mouseleave", ()  =>{
 
     mainMedia.addEventListener('mouseenter', () => {
       player.play();
+    });
+
+     mainMedia.addEventListener('mouseleave', () => {
+      player.pause();
     });
   }
 }

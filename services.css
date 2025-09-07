@@ -99,20 +99,18 @@ margin-top: -60px;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: #fff;
   padding: 1rem;
 }
 
-.background-video {
-    margin-top: 90px;
+ .background-video {
   position: absolute;
   top: 0;
   left: 0;
-   height: 400px;
+  height:250px;
   width: 100%;
   object-fit: cover;
   z-index: -1;
-
 }
 
 .hero-content h1 {
@@ -162,7 +160,7 @@ color: white;
   flex-wrap: wrap;
 }
 .contact{
-  margin-top: -10px;
+  margin-top: -200px;
 }
 .contact input[type="email"] {
   padding: 0.6rem;
@@ -265,7 +263,7 @@ margin-top: 20px;
 }
 
 .work-item {
-  margin-top: 100px;
+  margin-top: 150px;
   text-align: center;
 }
 

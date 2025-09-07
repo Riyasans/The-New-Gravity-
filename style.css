@@ -192,7 +192,7 @@ margin-bottom: 10px;
 
 
 .trusted {
-  margin-top:-20px;
+  margin-top:-5px;
   background-color:black; /* light background */
   padding: 40px 20px;
   text-align: center;
@@ -250,17 +250,21 @@ margin-bottom: 10px;
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 30px;
-  background-color:white;
+  background-color:black;
   border-radius: 10px;
+  border-color:white;
   padding: 20px;
 }
 .service-item h1{
   font-size: 30px;
   text-decoration: none;
-  text-align: left;
+  color: white;
+  text-align: center;
+                        
 }
 a{
   text-decoration: none;
+
 }
 
 
