@@ -56,15 +56,8 @@ if (window.location.pathname.includes("work")) {
     // Vimeo Player controls
     const player = new Vimeo.Player(iframe);
 
-    mainMedia.addEventListener("mouseenter", () => {
-      player.setVolume(1);
-      player.play();
-    });
+  
 
-    mainMedia.addEventListener("mouseleave", () => {
-      player.pause();
-      player.setCurrentTime(0);
-    });
   }
 
   // Initialize default Vimeo on load
