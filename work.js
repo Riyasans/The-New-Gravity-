@@ -44,7 +44,7 @@ if (window.location.pathname.includes("work")) {
   function loadVimeo(mainMedia, videoUrl = "https://player.vimeo.com/video/1112975926") {
     mainMedia.innerHTML = "";
     const iframe = document.createElement('iframe');
-    iframe.src = `${videoUrl}?1&muted=0&controls=1&title=0&byline=0&portrait=0`;
+    iframe.src = `${videoUrl}?1&muted=0&controls=1&title=0&byline=0&portrait=0width=1200height=600`;
     iframe.frameBorder = "0";
     iframe.allow = "fullscreen; picture-in-picture";
     iframe.allowFullscreen = true;
