@@ -56,7 +56,7 @@ body {
 .para p {
 font-size: 20px;
 margin-top: -60px;
-
+color: rgb(186, 186, 186);
  margin-left: 15px;
  margin-right: 15px;
   text-align: center;
@@ -202,6 +202,17 @@ color: white;
   color:white;
 }
 
+.contact h1{
+  text-align: center;
+  color: white;
+  size: 5px;
+  
+
+
+}
+
+
+
 
 
 
@@ -236,7 +247,7 @@ color: white;
 
 
 #company {
-  margin-top: 90px;
+  margin-top: 30px;
  display: flex;
  flex-direction: column;
   object-fit: cover;
@@ -248,7 +259,7 @@ color: white;
 #work {
 margin-top: 10px;
   padding: 40px 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
 
 }

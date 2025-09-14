@@ -63,9 +63,16 @@ iframe {
 font-size: 30px;
 margin-top: -80px;
   text-align: center;
+color: #444;
 }
 
+*.projectdeatil{
+  color: #444;
+}
 
+*.projectdivide{
+margin-top: 30px;
+}
 .nav-links {
   list-style: none;
   display: flex;
@@ -197,16 +204,26 @@ color: white;
   font-size: 60px;
   color:black;
 }
+
+
+.contact h1{
+  text-align: center;
+  color: white;
+  size: 5px;
+  
+
+
+}
+
 .contact p{
   font-size: 20px;
-  color: black;
+  color:rgb(0, 0, 0);
 }
 
 .contact  p1 {
   font-size: 15px;
-  color:black;
+  color: rgb(0, 0, 0);
 }
-
 
 
 
@@ -242,21 +259,34 @@ color: white;
 
 
 #company {
-  margin-top: 90px;
+  margin-top: 40px;
  display: flex;
  flex-direction: column;
   object-fit: cover;
   background-color:transparent;
   padding: 20px 20px;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
+}
+.contact{
+  margin-top: 30px;
 }
 
 #work {
   margin-top: 90px;
   padding: 40px 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
 
+}
+*.work-grid{
+ margin-bottom: 180px;
+}
+.work-grid1{
+  margin-top: 180px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px
+  
 }
 
 #work h2 {

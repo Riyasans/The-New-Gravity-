@@ -41,7 +41,7 @@ if (window.location.pathname.includes("work")) {
   }
 
   // Load Vimeo video inside main media
-  function loadVimeo(mainMedia, videoUrl = "https://player.vimeo.com/video/1112975926") {
+  function loadVimeo(mainMedia, videoUrl = "https://player.vimeo.com/video/1112976006") {
     mainMedia.innerHTML = "";
     const iframe = document.createElement('iframe');
     iframe.src = `${videoUrl}?1&muted=0&controls=1&title=0&byline=0&portrait=0width=1200height=600`;

@@ -56,6 +56,7 @@ body {
 .para p {
 font-size: 30px;
 margin-top: -80px;
+color: #444;
   text-align: center;
 }
 
@@ -180,7 +181,7 @@ color: white;
   flex-wrap: wrap;
 }
 .contact{
-  margin-top: -200px;
+  margin-top: -250px;
 }
 
 .contact input[type="email"] {
@@ -256,7 +257,7 @@ color: white;
 
 
 #company {
-  margin-top: 90px;
+  margin-top: 40px;
  display: flex;
  flex-direction: column;
   object-fit: cover;
